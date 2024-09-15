@@ -30,7 +30,7 @@ df_heat.set_index('Date', inplace=True)
 
 plt.figure(figsize=(12, 8))
 sns.heatmap(df_heat, annot=True, cmap='YlGnBu', cbar=True)
-plt.title('Heatmap of Stock Jump Activity Across FOMC Announcements')
+plt.title('Heatmap of Price Jump Likelihood')
 plt.xlabel('Stocks')
 plt.ylabel('FOMC Announcement Dates')
 plt.show()
